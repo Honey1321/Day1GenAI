@@ -1,0 +1,46 @@
+Python 3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+name='honey'
+name.capitalize
+<built-in method capitalize of str object at 0x000001E7B8301080>
+name.capitalize()
+'Honey'
+>>> name.casefold()
+'honey'
+>>> name.casefold()
+'honey'
+>>> name.center(10)
+'  honey   '
+>>> name.count()
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    name.count()
+TypeError: count expected at least 1 argument, got 0
+>>> name.count(10)
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    name.count(10)
+TypeError: count() argument 1 must be str, not int
+>>> name.count('honey')
+1
+>>> name='honey,keerthana'
+>>> name.count(name)
+1
+>>> name='honey';'monu'
+'monu'
+>>> name='honey','monu'
+>>> name.count(name)
+0
+>>> name='Honey keerthana'
+>>> print(name)
+Honey keerthana
+>>> colour='Black'
+>>> food='Dosa'
+>>> print(name)
+Honey keerthana
+>>> print(colour)
+Black
+>>> print(food)
+Dosa
+>>> print(name\n,colour\n,food\n)
+SyntaxError: unexpected character after line continuation character
